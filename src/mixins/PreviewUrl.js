@@ -19,7 +19,6 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  *
  */
-import { getPreviewIfAny } from '../utils/previewUtils.ts'
 import { getDavPath } from '../utils/fileUtils.ts'
 
 export default {
