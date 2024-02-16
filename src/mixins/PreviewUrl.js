@@ -67,7 +67,7 @@ export default {
 		 * @return {string} the absolute url
 		 */
 		getPreviewIfAny(data) {
-			return getPreviewIfAny(data)
+			return data.davPath
 		},
 	},
 }
