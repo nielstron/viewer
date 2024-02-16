@@ -146,7 +146,10 @@ export default {
 		},
 		imgStyle() {
 			if (this.zoomRatio === 1) {
-				return {}
+				return {
+					width: Math.round(0.95 * this.width) + 'px',
+					height: Math.round(0.95 * this.height) + 'px',
+				}
 			}
 			return {
 				marginTop: Math.round(this.shiftY * 2) + 'px',
